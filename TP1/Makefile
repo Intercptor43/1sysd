@@ -1,6 +1,6 @@
 .PHONY: all clean
 
-PROGS=tp1
+PROGS=tp1 hasard
 CC=gcc
 CFLAGS=
 LDFLAGS=
