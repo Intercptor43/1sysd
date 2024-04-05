@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    int age;
+
+    printf("Quel est votre âge ? ");
+    scanf("%d", &age);
+
+    if (age > 42) {
+        printf("OK Boomer\n");
+    } else {
+        printf("Vous n'êtes pas un boomer.\n");
+    }
+
+    return 0;
+}
