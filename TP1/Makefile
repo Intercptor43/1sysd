@@ -1,6 +1,6 @@
 .PHONY: all clean
 
-PROGS=tp1 hasard
+PROGS=tp1 hasard afficher_chiffre
 CC=gcc
 CFLAGS=
 LDFLAGS=
