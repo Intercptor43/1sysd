@@ -1,6 +1,6 @@
 .PHONY: all clean
 
-PROGS=float tableau1 matrices
+PROGS=float tableau1 matrices pointeur
 CC=gcc
 CFLAGS=
 LDFLAGS=
