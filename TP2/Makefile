@@ -1,6 +1,6 @@
 .PHONY: all clean
 
-PROGS=float
+PROGS=float tableau1
 CC=gcc
 CFLAGS=
 LDFLAGS=
