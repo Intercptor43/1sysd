@@ -1,6 +1,6 @@
 .PHONY: all clean
 
-PROGS=
+PROGS=circle
 CC=gcc
 CFLAGS=
 LDFLAGS=-lm
