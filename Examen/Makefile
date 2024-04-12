@@ -1,6 +1,6 @@
 .PHONY: all clean
 
-PROGS=circle invertcase factorial hist test
+PROGS=circle invertcase factorial hist paths
 CC=gcc
 CFLAGS=
 LDFLAGS=-lm
