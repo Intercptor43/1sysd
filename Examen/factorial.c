@@ -14,19 +14,19 @@ int main(int argc, char *argv[]) {
     char *endptr;
 
     if (argc != 3) {
-        printf("Usage : ./factorial start end\n");
+        printf("Utilisation : ./factorial Début Fin\n");
         return 1;
     }
 
     start = (int) strtol(argv[1], &endptr, 10);
     if (*endptr != '\0' || start < 0) {
-        printf("Error: Invalid start argument\n");
+        printf("Erreur: Argument de début invalide\n");
         return 1;
     }
 
     end = (int) strtol(argv[2], &endptr, 10);
     if (*endptr != '\0' || end < 0) {
-        printf("Error: Invalid end argument\n");
+        printf("Erreur: Argument de fin invalide\n");
         return 1;
     }
 
