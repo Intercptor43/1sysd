@@ -1,6 +1,6 @@
 .PHONY: all clean
 
-PROGS=circle
+PROGS=circle invertcase
 CC=gcc
 CFLAGS=
 LDFLAGS=-lm
