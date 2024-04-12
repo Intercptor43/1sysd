@@ -1,15 +1,14 @@
 #include<stdio.h>
 #include<stdlib.h>
-#include <math.h>
+
+#define PI 3.14159
 
 double P(double r) {
-    double pi = 3.14159;
-    return 2 * pi * r;
+    return 2 * PI * r;
 }
 
 double S(double r) {
-    double pi = 3.14159;
-    return pi * pow(r, 2);
+    return PI * r * r;
 }
 
 int main() {
